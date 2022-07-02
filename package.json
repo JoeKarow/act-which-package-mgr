@@ -1,0 +1,20 @@
+{
+  "name": "@joekarow/act-which-package-mgr",
+  "version": "0.1",
+  "description": "GitHub Action: Identifies which node package manager is in use for a given repo",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "ncc build src/index.js"
+  },
+  "keywords": [],
+  "author": "Joe Karow",
+  "license": "GPLv3",
+  "dependencies": {
+    "@actions/core": "^1.9.0",
+    "ansi-styles": "^6.1.0",
+    "detect-package-manager": "^2.0.1"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.34.0"
+  }
+}
