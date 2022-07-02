@@ -27,6 +27,9 @@
     "eslint": "^8.19.0",
     "generate-license-file": "^1.3.0"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/JoeKarow/act-which-package-mgr.git"
