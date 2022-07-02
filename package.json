@@ -4,7 +4,9 @@
   "description": "GitHub Action: Identifies which node package manager is in use for a given repo",
   "main": "dist/index.js",
   "scripts": {
-    "build": "ncc build src/index.js"
+    "build": "ncc build src/index.js --license licenses.txt",
+    "license": "generate-license-file --input package.json --output licenses.txt --overwrite",
+    "dist": "pnpm license && pnpm build"
   },
   "keywords": [],
   "author": "Joe Karow",
@@ -15,6 +17,8 @@
     "detect-package-manager": "^2.0.1"
   },
   "devDependencies": {
-    "@vercel/ncc": "^0.34.0"
+    "@vercel/ncc": "^0.34.0",
+    "eslint": "^8.19.0",
+    "generate-license-file": "^1.3.0"
   }
 }
