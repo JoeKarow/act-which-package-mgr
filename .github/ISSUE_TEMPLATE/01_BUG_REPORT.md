@@ -1,6 +1,6 @@
 ---
 name: Bug Report
-about: Create a report to help netwerkr to improve
+about: Create a report to help act-which-package-mgr to improve
 title: 'bug: '
 labels: 'bug'
 assignees: ''
@@ -8,7 +8,7 @@ assignees: ''
 
 ## Bug Report
 
-**netwerkr version:**
+**act-which-package-mgr version:**
 
 <!-- Please specify commit or tag version. -->
 

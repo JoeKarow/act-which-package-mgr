@@ -75,7 +75,7 @@ After editing in the `src/` directory, run `pnpm run build` to compile.
 
 Reach out to the maintainer at one of the following places:
 
-- [GitHub issues](https://github.com/JoeKarow/netwerkr/issues/new?assignees=&labels=question&template=04_SUPPORT_QUESTION.md&title=support%3A+)
+- [GitHub issues](https://github.com/JoeKarow/act-which-package-mgr/issues/new?assignees=&labels=question&template=04_SUPPORT_QUESTION.md&title=support%3A+)
 - Contact options listed on [this GitHub profile](https://github.com/JoeKarow)
 
 ## Contributing
@@ -88,12 +88,12 @@ Please read [our contribution guidelines](docs/CONTRIBUTING.md), and thank you f
 
 The original setup of this repository is by [Joe Karow](https://github.com/JoeKarow).
 
-For a full list of all authors and contributors, see [the contributors page](https://github.com/JoeKarow/netwerkr/contributors).
+For a full list of all authors and contributors, see [the contributors page](https://github.com/JoeKarow/act-which-package-mgr/contributors).
 
 ## Security
 
-netwerkr follows good practices of security, but 100% security cannot be assured.
-netwerkr is provided **"as is"** without any **warranty**. Use at your own risk.
+act-which-package-mgr follows good practices of security, but 100% security cannot be assured.
+act-which-package-mgr is provided **"as is"** without any **warranty**. Use at your own risk.
 
 _For more information and to report security issues, please refer to our [security documentation](docs/SECURITY.md)._
 
