@@ -28,13 +28,17 @@ jobs:
         uses: actions/checkout@v3
         with:
           ref: ${{ github.head_ref }}
-
+          
+        #################################
         # This is the only setup needed #
+        #################################
       - name: Identify package manager
         id: pkgman
         uses: joekarow/act-which-package-mgr@v1
         #################################
+        #################################
 
+        
       - name: Install package managers globally
         run: npm -g install pnpm yarn
 
