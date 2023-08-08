@@ -1,7 +1,9 @@
 {
   "extends": [
     "github>JoeKarow/renovate-config",
-    "github>whitesource/merge-confidence:beta"
+    "mergeConfidence:all-badges"
   ],
-  "baseBranches": ["develop"]
+  "baseBranches": [
+    "develop"
+  ]
 }
