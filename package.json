@@ -14,7 +14,7 @@
   "dependencies": {
     "@actions/core": "^1.9.0",
     "ansi-styles": "^6.1.0",
-    "detect-package-manager": "^2.0.1"
+    "detect-package-manager": "^3.0.0"
   },
   "devDependencies": {
     "@vercel/ncc": "^0.38.0",
