@@ -24,7 +24,7 @@ devDependencies:
     version: 8.57.0
   generate-license-file:
     specifier: ^3.0.0
-    version: 3.2.0(commander@12.0.0)
+    version: 3.4.0(commander@12.0.0)
 
 packages:
 
@@ -199,7 +199,7 @@ packages:
       '@npmcli/fs': 3.1.0
       '@npmcli/installed-package-contents': 2.0.2
       '@npmcli/map-workspaces': 3.0.6
-      '@npmcli/metavuln-calculator': 7.0.0
+      '@npmcli/metavuln-calculator': 7.1.0
       '@npmcli/name-from-folder': 2.0.0
       '@npmcli/node-gyp': 3.0.0
       '@npmcli/package-json': 5.0.3
@@ -248,7 +248,7 @@ packages:
       '@npmcli/promise-spawn': 7.0.1
       lru-cache: 10.2.0
       npm-pick-manifest: 9.0.0
-      proc-log: 4.0.0
+      proc-log: 4.2.0
       promise-inflight: 1.0.1
       promise-retry: 2.0.1
       semver: 7.6.0
@@ -276,13 +276,14 @@ packages:
       read-package-json-fast: 3.0.2
     dev: true
 
-  /@npmcli/metavuln-calculator@7.0.0:
-    resolution: {integrity: sha512-Pw0tyX02VkpqlIQlG2TeiJNsdrecYeUU0ubZZa9pi3N37GCsxI+en43u4hYFdq+eSx1A9a9vwFAUyqEtKFsbHQ==}
+  /@npmcli/metavuln-calculator@7.1.0:
+    resolution: {integrity: sha512-D4VZzVLZ4Mw+oUCWyQ6qzlm5SGlrLnhKtZscDwQXFFc1FUPvw69Ibo2E5ZpJAmjFSYkA5UlCievWmREW0JLC3w==}
     engines: {node: ^16.14.0 || >=18.0.0}
     dependencies:
       cacache: 18.0.2
       json-parse-even-better-errors: 3.0.1
-      pacote: 17.0.7
+      pacote: 18.0.0
+      proc-log: 4.2.0
       semver: 7.6.0
     transitivePeerDependencies:
       - bluebird
@@ -308,7 +309,7 @@ packages:
       hosted-git-info: 7.0.1
       json-parse-even-better-errors: 3.0.1
       normalize-package-data: 6.0.0
-      proc-log: 4.0.0
+      proc-log: 4.2.0
       semver: 7.6.0
     transitivePeerDependencies:
       - bluebird
@@ -341,6 +342,21 @@ packages:
       '@npmcli/package-json': 5.0.3
       '@npmcli/promise-spawn': 7.0.1
       node-gyp: 10.1.0
+      which: 4.0.0
+    transitivePeerDependencies:
+      - bluebird
+      - supports-color
+    dev: true
+
+  /@npmcli/run-script@8.0.0:
+    resolution: {integrity: sha512-5noc+eCQmX1W9nlFUe65n5MIteikd3vOA2sEPdXtlUv68KWyHNFZnT/LDRXu/E4nZ5yxjciP30pADr/GQ97W1w==}
+    engines: {node: ^16.14.0 || >=18.0.0}
+    dependencies:
+      '@npmcli/node-gyp': 3.0.0
+      '@npmcli/package-json': 5.0.3
+      '@npmcli/promise-spawn': 7.0.1
+      node-gyp: 10.1.0
+      proc-log: 4.2.0
       which: 4.0.0
     transitivePeerDependencies:
       - bluebird
@@ -1002,8 +1018,8 @@ packages:
       wide-align: 1.1.5
     dev: true
 
-  /generate-license-file@3.2.0(commander@12.0.0):
-    resolution: {integrity: sha512-k5xFIOMSWuJbtOm7+jU3EjplWronB65sliK1PFm60zMUpXAxQjYGBGtAmqUZxi20CfLtB7xtR7qipG5sdJ6BaA==}
+  /generate-license-file@3.4.0(commander@12.0.0):
+    resolution: {integrity: sha512-VqrocosZn9INhkA/MZk+ktc/tRrDj3rSGHdEPau2CZErLDze8BWApBT9HcnYDo4QnDNDEf7Q/ySZbymh9WfaOQ==}
     hasBin: true
     dependencies:
       '@commander-js/extra-typings': 12.0.1(commander@12.0.0)
@@ -1015,7 +1031,7 @@ packages:
       json5: 2.2.3
       ora: 5.4.1
       tslib: 2.6.2
-      zod: 3.22.4
+      zod: 3.23.0
     transitivePeerDependencies:
       - bluebird
       - commander
@@ -1559,7 +1575,7 @@ packages:
     engines: {node: ^16.14.0 || >=18.0.0}
     dependencies:
       hosted-git-info: 7.0.1
-      proc-log: 4.0.0
+      proc-log: 4.2.0
       semver: 7.6.0
       validate-npm-package-name: 5.0.0
     dev: true
@@ -1592,7 +1608,7 @@ packages:
       minipass-json-stream: 1.0.1
       minizlib: 2.1.2
       npm-package-arg: 11.0.2
-      proc-log: 4.0.0
+      proc-log: 4.2.0
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1690,7 +1706,35 @@ packages:
       npm-packlist: 8.0.2
       npm-pick-manifest: 9.0.0
       npm-registry-fetch: 16.2.1
-      proc-log: 4.0.0
+      proc-log: 4.2.0
+      promise-retry: 2.0.1
+      read-package-json: 7.0.0
+      read-package-json-fast: 3.0.2
+      sigstore: 2.3.0
+      ssri: 10.0.5
+      tar: 6.2.1
+    transitivePeerDependencies:
+      - bluebird
+      - supports-color
+    dev: true
+
+  /pacote@18.0.0:
+    resolution: {integrity: sha512-ma7uVt/q3Sb3XbLwUjOeClz+7feHjMOFegHn5whw++x+GzikZkAq/2auklSbRuy6EI2iJh1/ZqCpVaUcxRaeqQ==}
+    engines: {node: ^16.14.0 || >=18.0.0}
+    hasBin: true
+    dependencies:
+      '@npmcli/git': 5.0.6
+      '@npmcli/installed-package-contents': 2.0.2
+      '@npmcli/promise-spawn': 7.0.1
+      '@npmcli/run-script': 8.0.0
+      cacache: 18.0.2
+      fs-minipass: 3.0.3
+      minipass: 7.0.4
+      npm-package-arg: 11.0.2
+      npm-packlist: 8.0.2
+      npm-pick-manifest: 9.0.0
+      npm-registry-fetch: 16.2.1
+      proc-log: 4.2.0
       promise-retry: 2.0.1
       read-package-json: 7.0.0
       read-package-json-fast: 3.0.2
@@ -1772,8 +1816,8 @@ packages:
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
     dev: true
 
-  /proc-log@4.0.0:
-    resolution: {integrity: sha512-v1lzmYxGDs2+OZnmYtYZK3DG8zogt+CbQ+o/iqqtTfpyCmGWulCTEQu5GIbivf7OjgIkH2Nr8SH8UxAGugZNbg==}
+  /proc-log@4.2.0:
+    resolution: {integrity: sha512-g8+OnU/L2v+wyiVK+D5fA34J7EH8jZ8DDlvwhRCMxmMj7UCBvxiO1mGeN+36JXIKF4zevU4kRBd8lVgG9vLelA==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
     dev: true
 
@@ -2225,6 +2269,6 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /zod@3.22.4:
-    resolution: {integrity: sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==}
+  /zod@3.23.0:
+    resolution: {integrity: sha512-OFLT+LTocvabn6q76BTwVB0hExEBS0IduTr3cqZyMqEDbOnYmcU+y0tUAYbND4uwclpBGi4I4UUBGzylWpjLGA==}
     dev: true
