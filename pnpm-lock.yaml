@@ -24,19 +24,19 @@ devDependencies:
     version: 8.57.0
   generate-license-file:
     specifier: ^3.0.0
-    version: 3.5.0(commander@12.1.0)
+    version: 3.5.1
 
 packages:
 
   /@actions/core@1.10.1:
     resolution: {integrity: sha512-3lBR9EDAY+iYIpTnTIXmWcNbX3T2kCkAEQGIQx4NVQ0575nk2k3GRZDTPQG+vVtS2izSLmINlxXf0uLtnrTP+g==}
     dependencies:
-      '@actions/http-client': 2.2.1
+      '@actions/http-client': 2.2.2
       uuid: 8.3.2
     dev: false
 
-  /@actions/http-client@2.2.1:
-    resolution: {integrity: sha512-KhC/cZsq7f8I4LfZSJKgCvEwfkE8o1538VoBeoGzokVLLnbFDEAdFD3UhoMklxo2un9NJVBdANOresx7vTHlHw==}
+  /@actions/http-client@2.2.2:
+    resolution: {integrity: sha512-2TvX5LskKQzDDQI+bobIDGAjkn0NJiQlg4MTrKnZ8HfQ7nDEUbtJ1ytxPDb2bfk3Hr2XD99X8oAJISAmIoiSAQ==}
     dependencies:
       tunnel: 0.0.6
       undici: 5.28.4
@@ -96,7 +96,7 @@ packages:
       debug: 4.3.6
       espree: 9.6.1
       globals: 13.24.0
-      ignore: 5.3.1
+      ignore: 5.3.2
       import-fresh: 3.3.0
       js-yaml: 4.1.0
       minimatch: 3.1.2
@@ -325,7 +325,7 @@ packages:
     resolution: {integrity: sha512-C/iR0tk7KSKGldibYIB9x8GtO/0Bd0I2mhOaDb8ucQL/bQVTmGoeREaFj64Z5+iCBRf3dQfed0CjJL7I8iTkiQ==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
     dependencies:
-      postcss-selector-parser: 6.1.1
+      postcss-selector-parser: 6.1.2
     dev: true
 
   /@npmcli/redact@2.0.1:
@@ -822,7 +822,7 @@ packages:
       glob-parent: 6.0.2
       globals: 13.24.0
       graphemer: 1.4.0
-      ignore: 5.3.1
+      ignore: 5.3.2
       imurmurhash: 0.1.4
       is-glob: 4.0.3
       is-path-inside: 3.0.3
@@ -963,13 +963,14 @@ packages:
     resolution: {integrity: sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==}
     dev: true
 
-  /generate-license-file@3.5.0(commander@12.1.0):
-    resolution: {integrity: sha512-EhSL5hOsWjmmj01UF0KCicZ9A9NmVWStVN3WTKh/CmXqhx3xJ3q7DYaZa3qXvDjgyGBEZpJsDoTfCmAZZjJabA==}
+  /generate-license-file@3.5.1:
+    resolution: {integrity: sha512-XgZPDopGzFim1Dmp2DdERreSD2rXmLz1X2g1Zx1KnmCNCh4M5BmQT96cSl28nn/HppAzQRZcZgvus6U5Og/vqg==}
     hasBin: true
     dependencies:
       '@commander-js/extra-typings': 12.1.0(commander@12.1.0)
       '@npmcli/arborist': 7.5.4
       cli-spinners: 2.9.2
+      commander: 12.1.0
       cosmiconfig: 9.0.0
       enquirer: 2.4.1
       glob: 10.4.5
@@ -979,7 +980,6 @@ packages:
       zod: 3.23.8
     transitivePeerDependencies:
       - bluebird
-      - commander
       - supports-color
       - typescript
     dev: true
@@ -1101,8 +1101,8 @@ packages:
       minimatch: 9.0.5
     dev: true
 
-  /ignore@5.3.1:
-    resolution: {integrity: sha512-5Fytz/IraMjqpwfd34ke28PTVMjZjJG2MPn5t7OE4eUCUNf8BAa7b5WUS9/Qvr6mwOQS7Mk6vdsMno5he+T8Xw==}
+  /ignore@5.3.2:
+    resolution: {integrity: sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g==}
     engines: {node: '>= 4'}
     dev: true
 
@@ -1682,8 +1682,8 @@ packages:
     resolution: {integrity: sha512-anP1Z8qwhkbmu7MFP5iTt+wQKXgwzf7zTyGlcdzabySa9vd0Xt392U0rVmz9poOaBj0uHJKyyo9/upk0HrEQew==}
     dev: true
 
-  /postcss-selector-parser@6.1.1:
-    resolution: {integrity: sha512-b4dlw/9V8A71rLIDsSwVmak9z2DuBUB7CA1/wSdelNEzqsjoSPeADTWNO09lpH49Diy3/JIZ2bSPB1dI3LJCHg==}
+  /postcss-selector-parser@6.1.2:
+    resolution: {integrity: sha512-Q8qQfPiZ+THO/3ZrOrO0cJJKfpYCagtMUkXbnEfmgUjwXg6z/WBeOyS9APBBPCTSiDV+s4SwQGu8yFsiMRIudg==}
     engines: {node: '>=4'}
     dependencies:
       cssesc: 3.0.0
