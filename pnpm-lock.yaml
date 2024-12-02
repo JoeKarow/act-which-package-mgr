@@ -220,7 +220,7 @@ packages:
       '@npmcli/metavuln-calculator': 8.0.1
       '@npmcli/name-from-folder': 3.0.0
       '@npmcli/node-gyp': 4.0.0
-      '@npmcli/package-json': 6.0.1
+      '@npmcli/package-json': 6.1.0
       '@npmcli/query': 4.0.0
       '@npmcli/redact': 3.0.0
       '@npmcli/run-script': 9.0.1
@@ -298,7 +298,7 @@ packages:
     engines: {node: ^18.17.0 || >=20.5.0}
     dependencies:
       '@npmcli/name-from-folder': 3.0.0
-      '@npmcli/package-json': 6.0.1
+      '@npmcli/package-json': 6.1.0
       glob: 10.4.5
       minimatch: 9.0.5
     transitivePeerDependencies:
@@ -329,8 +329,8 @@ packages:
     engines: {node: ^18.17.0 || >=20.5.0}
     dev: true
 
-  /@npmcli/package-json@6.0.1:
-    resolution: {integrity: sha512-YW6PZ99sc1Q4DINEY2td5z9Z3rwbbsx7CyCnOc7UXUUdePXh5gPi1UeaoQVmKQMVbIU7aOwX2l1OG5ZfjgGi5g==}
+  /@npmcli/package-json@6.1.0:
+    resolution: {integrity: sha512-t6G+6ZInT4X+tqj2i+wlLIeCKnKOTuz9/VFYDtj+TGTur5q7sp/OYrQA19LdBbWfXDOi0Y4jtedV6xtB8zQ9ug==}
     engines: {node: ^18.17.0 || >=20.5.0}
     dependencies:
       '@npmcli/git': 6.0.1
@@ -368,7 +368,7 @@ packages:
     engines: {node: ^18.17.0 || >=20.5.0}
     dependencies:
       '@npmcli/node-gyp': 4.0.0
-      '@npmcli/package-json': 6.0.1
+      '@npmcli/package-json': 6.1.0
       '@npmcli/promise-spawn': 8.0.2
       node-gyp: 10.2.0
       proc-log: 5.0.0
@@ -1691,7 +1691,7 @@ packages:
     dependencies:
       '@npmcli/git': 6.0.1
       '@npmcli/installed-package-contents': 3.0.0
-      '@npmcli/package-json': 6.0.1
+      '@npmcli/package-json': 6.1.0
       '@npmcli/promise-spawn': 8.0.2
       '@npmcli/run-script': 9.0.1
       cacache: 19.0.1
@@ -1718,7 +1718,7 @@ packages:
     dependencies:
       '@npmcli/git': 6.0.1
       '@npmcli/installed-package-contents': 3.0.0
-      '@npmcli/package-json': 6.0.1
+      '@npmcli/package-json': 6.1.0
       '@npmcli/promise-spawn': 8.0.2
       '@npmcli/run-script': 9.0.1
       cacache: 19.0.1
