@@ -24,7 +24,7 @@ devDependencies:
     version: 8.57.1
   generate-license-file:
     specifier: ^3.0.0
-    version: 3.6.0
+    version: 3.7.0
 
 packages:
 
@@ -45,7 +45,7 @@ packages:
     resolution: {integrity: sha512-mx8hyJi/hjFvbPokCg4uRd4ZX78t+YyRPtnKWwIl+RzNaVuFpQHfmlGVfsKEJN8LwTCvL+DfVgAM04XaHkm6bA==}
     dependencies:
       tunnel: 0.0.6
-      undici: 5.28.4
+      undici: 5.28.5
     dev: false
 
   /@actions/io@1.1.3:
@@ -369,7 +369,7 @@ packages:
     resolution: {integrity: sha512-XDUYX56iMPAn/cdgh/DTJxz5RWmqKV4pwvUAEKEWJl+HzKdCd/24wUa9JYNMlDSCb7SUHAdtksxYX779Nne/Zg==}
     engines: {node: ^18.17.0 || >=20.5.0}
     dependencies:
-      '@sigstore/protobuf-specs': 0.3.2
+      '@sigstore/protobuf-specs': 0.3.3
     dev: true
 
   /@sigstore/core@2.0.0:
@@ -377,9 +377,9 @@ packages:
     engines: {node: ^18.17.0 || >=20.5.0}
     dev: true
 
-  /@sigstore/protobuf-specs@0.3.2:
-    resolution: {integrity: sha512-c6B0ehIWxMI8wiS/bj6rHMPqeFvngFV7cDU/MY+B16P9Z3Mp9k8L93eYZ7BYzSickzuqAQqAq0V956b3Ju6mLw==}
-    engines: {node: ^16.14.0 || >=18.0.0}
+  /@sigstore/protobuf-specs@0.3.3:
+    resolution: {integrity: sha512-RpacQhBlwpBWd7KEJsRKcBQalbV28fvkxwTOJIqhIuDysMMaJW47V4OqW30iJB9uRpqOSxxEAQFdr8tTattReQ==}
+    engines: {node: ^18.17.0 || >=20.5.0}
     dev: true
 
   /@sigstore/sign@3.0.0:
@@ -388,7 +388,7 @@ packages:
     dependencies:
       '@sigstore/bundle': 3.0.0
       '@sigstore/core': 2.0.0
-      '@sigstore/protobuf-specs': 0.3.2
+      '@sigstore/protobuf-specs': 0.3.3
       make-fetch-happen: 14.0.3
       proc-log: 5.0.0
       promise-retry: 2.0.1
@@ -400,7 +400,7 @@ packages:
     resolution: {integrity: sha512-9Xxy/8U5OFJu7s+OsHzI96IX/OzjF/zj0BSSaWhgJgTqtlBhQIV2xdrQI5qxLD7+CWWDepadnXAxzaZ3u9cvRw==}
     engines: {node: ^18.17.0 || >=20.5.0}
     dependencies:
-      '@sigstore/protobuf-specs': 0.3.2
+      '@sigstore/protobuf-specs': 0.3.3
       tuf-js: 3.0.1
     transitivePeerDependencies:
       - supports-color
@@ -412,7 +412,7 @@ packages:
     dependencies:
       '@sigstore/bundle': 3.0.0
       '@sigstore/core': 2.0.0
-      '@sigstore/protobuf-specs': 0.3.2
+      '@sigstore/protobuf-specs': 0.3.3
     dev: true
 
   /@tufjs/canonical-json@2.0.0:
@@ -932,8 +932,8 @@ packages:
     resolution: {integrity: sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==}
     dev: true
 
-  /generate-license-file@3.6.0:
-    resolution: {integrity: sha512-BzUqym85l+NtOgoHtPqRoOvXx/2K/2FeXBBOYM5YTv4SfdGzVJTYqOYNXxDST5qwwQC4XtdxVzGl/rXMLOgupw==}
+  /generate-license-file@3.7.0:
+    resolution: {integrity: sha512-xcIYkLsX4IoSB72eJhCZ91+pI0xF/8O99iETxugkbg8xwqVsXwVHQ7xOHJNtEhQsqxnTzQpLLbzoCyWk9Llrzw==}
     hasBin: true
     dependencies:
       '@commander-js/extra-typings': 12.1.0(commander@12.1.0)
@@ -1838,7 +1838,7 @@ packages:
     dependencies:
       '@sigstore/bundle': 3.0.0
       '@sigstore/core': 2.0.0
-      '@sigstore/protobuf-specs': 0.3.2
+      '@sigstore/protobuf-specs': 0.3.3
       '@sigstore/sign': 3.0.0
       '@sigstore/tuf': 3.0.0
       '@sigstore/verify': 2.0.0
@@ -1874,7 +1874,7 @@ packages:
     resolution: {integrity: sha512-kN9dJbvnySHULIluDHy32WHRUu3Og7B9sbY7tsFLctQkIqnMh3hErYgdMjTYuqmcXX+lK5T1lnUt3G7zNswmZA==}
     dependencies:
       spdx-expression-parse: 3.0.1
-      spdx-license-ids: 3.0.20
+      spdx-license-ids: 3.0.21
     dev: true
 
   /spdx-exceptions@2.5.0:
@@ -1885,11 +1885,11 @@ packages:
     resolution: {integrity: sha512-cbqHunsQWnJNE6KhVSMsMeH5H/L9EpymbzqTQ3uLwNCLZ1Q481oWaofqH7nO6V07xlXwY6PhQdQ2IedWx/ZK4Q==}
     dependencies:
       spdx-exceptions: 2.5.0
-      spdx-license-ids: 3.0.20
+      spdx-license-ids: 3.0.21
     dev: true
 
-  /spdx-license-ids@3.0.20:
-    resolution: {integrity: sha512-jg25NiDV/1fLtSgEgyvVyDunvaNHbuwF9lfNV17gSmPFAlYzdfNBlLtLzXTevwkPj7DhGbmN9VnmJIgLnhvaBw==}
+  /spdx-license-ids@3.0.21:
+    resolution: {integrity: sha512-Bvg/8F5XephndSK3JffaRqdT+gyhfqIPwDHpX80tJrF8QQRYMo8sNMeaZ2Dp5+jhwKnUmIOyFFQfHRkjJm5nXg==}
     dev: true
 
   /sprintf-js@1.1.3:
@@ -2023,8 +2023,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /undici@5.28.4:
-    resolution: {integrity: sha512-72RFADWFqKmUb2hmmvNODKL3p9hcB6Gt2DOQMis1SEBaV6a4MH8soBvzg+95CYhCKPFedut2JY9bMfrDl9D23g==}
+  /undici@5.28.5:
+    resolution: {integrity: sha512-zICwjrDrcrUE0pyyJc1I2QzBkLM8FINsgOrt6WjA+BgajVq9Nxu2PbFFXUrAggLfDXlZGZBVZYw7WNV5KiBiBA==}
     engines: {node: '>=14.0'}
     dependencies:
       '@fastify/busboy': 2.1.1
