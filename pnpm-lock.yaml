@@ -236,7 +236,6 @@ packages:
       treeverse: 3.0.0
       walk-up-path: 3.0.1
     transitivePeerDependencies:
-      - bluebird
       - supports-color
     dev: true
 
@@ -247,8 +246,8 @@ packages:
       semver: 7.7.1
     dev: true
 
-  /@npmcli/git@6.0.1:
-    resolution: {integrity: sha512-BBWMMxeQzalmKadyimwb2/VVQyJB01PH0HhVSNLHNBDZN/M/h/02P6f8fxedIiFhpMj11SO9Ep5tKTBE7zL2nw==}
+  /@npmcli/git@6.0.3:
+    resolution: {integrity: sha512-GUYESQlxZRAdhs3UhbB6pVRNUELQOHXwK9ruDkwmCv2aZ5y0SApQzUJCg02p3A7Ue2J5hxvlk1YI53c00NmRyQ==}
     engines: {node: ^18.17.0 || >=20.5.0}
     dependencies:
       '@npmcli/promise-spawn': 8.0.2
@@ -256,12 +255,9 @@ packages:
       lru-cache: 10.4.3
       npm-pick-manifest: 10.0.0
       proc-log: 5.0.0
-      promise-inflight: 1.0.1
       promise-retry: 2.0.1
       semver: 7.7.1
       which: 5.0.0
-    transitivePeerDependencies:
-      - bluebird
     dev: true
 
   /@npmcli/installed-package-contents@3.0.0:
@@ -281,8 +277,6 @@ packages:
       '@npmcli/package-json': 6.1.1
       glob: 10.4.5
       minimatch: 9.0.5
-    transitivePeerDependencies:
-      - bluebird
     dev: true
 
   /@npmcli/metavuln-calculator@8.0.1:
@@ -295,7 +289,6 @@ packages:
       proc-log: 5.0.0
       semver: 7.7.1
     transitivePeerDependencies:
-      - bluebird
       - supports-color
     dev: true
 
@@ -313,15 +306,13 @@ packages:
     resolution: {integrity: sha512-d5qimadRAUCO4A/Txw71VM7UrRZzV+NPclxz/dc+M6B2oYwjWTjqh8HA/sGQgs9VZuJ6I/P7XIAlJvgrl27ZOw==}
     engines: {node: ^18.17.0 || >=20.5.0}
     dependencies:
-      '@npmcli/git': 6.0.1
+      '@npmcli/git': 6.0.3
       glob: 10.4.5
       hosted-git-info: 8.0.2
       json-parse-even-better-errors: 4.0.0
       proc-log: 5.0.0
       semver: 7.7.1
       validate-npm-package-license: 3.0.4
-    transitivePeerDependencies:
-      - bluebird
     dev: true
 
   /@npmcli/promise-spawn@8.0.2:
@@ -354,7 +345,6 @@ packages:
       proc-log: 5.0.0
       which: 5.0.0
     transitivePeerDependencies:
-      - bluebird
       - supports-color
     dev: true
 
@@ -897,13 +887,13 @@ packages:
     resolution: {integrity: sha512-CYcENa+FtcUKLmhhqyctpclsq7QF38pKjZHsGNiSQF5r4FtoKDWabFDl3hzaEQMvT1LHEysw5twgLvpYYb4vbw==}
     engines: {node: ^10.12.0 || >=12.0.0}
     dependencies:
-      flatted: 3.3.2
+      flatted: 3.3.3
       keyv: 4.5.4
       rimraf: 3.0.2
     dev: true
 
-  /flatted@3.3.2:
-    resolution: {integrity: sha512-AiwGJM8YcNOaobumgtng+6NHuOqC3A7MixFeDafM3X9cIUM+xUXoS5Vfgf+OihAYe20fxqNM9yPBXJzRtZ/4eA==}
+  /flatted@3.3.3:
+    resolution: {integrity: sha512-GX+ysw4PBCz0PzosHDepZGANEuFCMLrnRTiEy9McGjmkCQYwRq4A/X786G/fjM/+OjsWSU1ZrY5qyARZmO/uwg==}
     dev: true
 
   /foreground-child@3.3.0:
@@ -948,7 +938,6 @@ packages:
       tslib: 2.8.1
       zod: 3.24.2
     transitivePeerDependencies:
-      - bluebird
       - supports-color
       - typescript
     dev: true
@@ -1565,7 +1554,7 @@ packages:
     engines: {node: ^18.17.0 || >=20.5.0}
     hasBin: true
     dependencies:
-      '@npmcli/git': 6.0.1
+      '@npmcli/git': 6.0.3
       '@npmcli/installed-package-contents': 3.0.0
       '@npmcli/package-json': 6.1.1
       '@npmcli/promise-spawn': 8.0.2
@@ -1583,7 +1572,6 @@ packages:
       ssri: 12.0.0
       tar: 6.2.1
     transitivePeerDependencies:
-      - bluebird
       - supports-color
     dev: true
 
@@ -1592,7 +1580,7 @@ packages:
     engines: {node: ^18.17.0 || >=20.5.0}
     hasBin: true
     dependencies:
-      '@npmcli/git': 6.0.1
+      '@npmcli/git': 6.0.3
       '@npmcli/installed-package-contents': 3.0.0
       '@npmcli/package-json': 6.1.1
       '@npmcli/promise-spawn': 8.0.2
@@ -1610,7 +1598,6 @@ packages:
       ssri: 12.0.0
       tar: 6.2.1
     transitivePeerDependencies:
-      - bluebird
       - supports-color
     dev: true
 
@@ -1695,15 +1682,6 @@ packages:
 
   /promise-call-limit@3.0.2:
     resolution: {integrity: sha512-mRPQO2T1QQVw11E7+UdCJu7S61eJVWknzml9sC1heAdj1jxl0fWMBypIt9ZOcLFf8FkG995ZD7RnVk7HH72fZw==}
-    dev: true
-
-  /promise-inflight@1.0.1:
-    resolution: {integrity: sha512-6zWPyEOFaQBJYcGMHBKTKJ3u6TBsnMFOIZSa6ce1e/ZrrsOlnHRHbabMjLiBYKp+n44X9eUI6VUPaukCXHuG4g==}
-    peerDependencies:
-      bluebird: '*'
-    peerDependenciesMeta:
-      bluebird:
-        optional: true
     dev: true
 
   /promise-retry@2.0.1:
