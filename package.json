@@ -12,13 +12,13 @@
   "author": "Joe Karow",
   "license": "GPLv3",
   "dependencies": {
-    "@actions/core": "^1.9.0",
-    "ansi-styles": "^6.1.0",
-    "detect-package-manager": "^3.0.0"
+    "@actions/core": "1.11.1",
+    "ansi-styles": "6.2.1",
+    "detect-package-manager": "3.0.2"
   },
   "devDependencies": {
-    "@vercel/ncc": "^0.38.0",
-    "eslint": "^9.0.0",
-    "generate-license-file": "^3.0.0"
+    "@vercel/ncc": "0.38.3",
+    "eslint": "9.27.0",
+    "generate-license-file": "3.8.1"
   }
 }
