@@ -3,7 +3,7 @@
     "github>JoeKarow/renovate-config",
     "mergeConfidence:all-badges"
   ],
-  "baseBranches": [
+  "baseBranchPatterns": [
     "develop"
   ]
 }
