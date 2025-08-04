@@ -373,7 +373,7 @@ packages:
       '@npmcli/node-gyp': 4.0.0
       '@npmcli/package-json': 6.2.0
       '@npmcli/promise-spawn': 8.0.2
-      node-gyp: 11.2.0
+      node-gyp: 11.3.0
       proc-log: 5.0.0
       which: 5.0.0
     transitivePeerDependencies:
@@ -1426,8 +1426,8 @@ packages:
     engines: {node: '>= 0.6'}
     dev: true
 
-  /node-gyp@11.2.0:
-    resolution: {integrity: sha512-T0S1zqskVUSxcsSTkAsLc7xCycrRYmtDHadDinzocrThjyQCn5kMlEBSj6H4qDbgsIOSLmmlRIeb0lZXj+UArA==}
+  /node-gyp@11.3.0:
+    resolution: {integrity: sha512-9J0+C+2nt3WFuui/mC46z2XCZ21/cKlFDuywULmseD/LlmnOrSeEAE4c/1jw6aybXLmpZnQY3/LmOJfgyHIcng==}
     engines: {node: ^18.17.0 || >=20.5.0}
     hasBin: true
     dependencies:
