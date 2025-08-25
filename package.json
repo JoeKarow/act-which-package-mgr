@@ -19,6 +19,6 @@
   "devDependencies": {
     "@vercel/ncc": "0.38.3",
     "eslint": "9.34.0",
-    "generate-license-file": "4.0.0"
+    "generate-license-file": "4.1.0"
   }
 }
