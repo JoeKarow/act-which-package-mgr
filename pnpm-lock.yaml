@@ -23,8 +23,8 @@ devDependencies:
     specifier: 9.34.0
     version: 9.34.0
   generate-license-file:
-    specifier: 4.0.0
-    version: 4.0.0
+    specifier: 4.1.0
+    version: 4.1.0
 
 packages:
 
@@ -958,8 +958,8 @@ packages:
       minipass: 7.1.2
     dev: true
 
-  /generate-license-file@4.0.0:
-    resolution: {integrity: sha512-6EVrMj1KK/EeUht2ebgg1zD7bw0aOpjs/YyPtqOl3/5P1cDk+sZyqyUZY0wkvk3iZnCfk+ILAL6W0PluF57Jsw==}
+  /generate-license-file@4.1.0:
+    resolution: {integrity: sha512-g/GGnfquPMFnOiPeBVdjWBp+MwbmPvP/RatL8v97kuQrPYmZWb3Oqmm3PdMQyXWaE2cnjGRXNXB7o0tIV4ZT9A==}
     hasBin: true
     dependencies:
       '@commander-js/extra-typings': 13.1.0(commander@13.1.0)
