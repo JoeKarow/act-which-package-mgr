@@ -9,8 +9,8 @@ dependencies:
     specifier: 1.11.1
     version: 1.11.1
   ansi-styles:
-    specifier: 6.2.1
-    version: 6.2.1
+    specifier: 6.2.3
+    version: 6.2.3
   detect-package-manager:
     specifier: 3.0.2
     version: 3.0.2
@@ -540,8 +540,8 @@ packages:
       color-convert: 2.0.1
     dev: true
 
-  /ansi-styles@6.2.1:
-    resolution: {integrity: sha512-bN798gFfQX+viw3R7yrGWRqnrN2oRkEkUjjl4JNn4E8GxxbjtG3FbrEIIY3l8/hrwUwIeCZvi4QuOTP4MErVug==}
+  /ansi-styles@6.2.3:
+    resolution: {integrity: sha512-4Dj6M28JB+oAH8kFkTLUo+a2jwOFkuqb3yucU0CANcRRUbxS0cP0nZYCGjcc3BNXwRIsUVmDGgzawme7zvJHvg==}
     engines: {node: '>=12'}
 
   /argparse@2.0.1:
@@ -2097,7 +2097,7 @@ packages:
     resolution: {integrity: sha512-si7QWI6zUMq56bESFvagtmzMdGOtoxfR+Sez11Mobfc7tm+VkUckk9bW2UeffTGVUbOksxmSw0AA2gs8g71NCQ==}
     engines: {node: '>=12'}
     dependencies:
-      ansi-styles: 6.2.1
+      ansi-styles: 6.2.3
       string-width: 5.1.2
       strip-ansi: 7.1.0
     dev: true
