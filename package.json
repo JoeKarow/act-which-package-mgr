@@ -17,7 +17,7 @@
     "detect-package-manager": "3.0.2"
   },
   "devDependencies": {
-    "@vercel/ncc": "0.38.3",
+    "@vercel/ncc": "0.38.4",
     "eslint": "9.35.0",
     "generate-license-file": "4.1.0"
   }
