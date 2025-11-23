@@ -23,8 +23,8 @@ devDependencies:
     specifier: 9.39.1
     version: 9.39.1
   generate-license-file:
-    specifier: 4.1.0
-    version: 4.1.0
+    specifier: 4.1.1
+    version: 4.1.1
 
 packages:
 
@@ -66,12 +66,12 @@ packages:
     engines: {node: '>=6.9.0'}
     dev: true
 
-  /@commander-js/extra-typings@13.1.0(commander@13.1.0):
-    resolution: {integrity: sha512-q5P52BYb1hwVWE6dtID7VvuJWrlfbCv4klj7BjUUOqMz4jbSZD4C9fJ9lRjL2jnBGTg+gDDlaXN51rkWcLk4fg==}
+  /@commander-js/extra-typings@14.0.0(commander@14.0.2):
+    resolution: {integrity: sha512-hIn0ncNaJRLkZrxBIp5AsW/eXEHNKYQBh0aPdoUqNgD+Io3NIykQqpKFyKcuasZhicGaEZJX/JBSIkZ4e5x8Dg==}
     peerDependencies:
-      commander: ~13.1.0
+      commander: ~14.0.0
     dependencies:
-      commander: 13.1.0
+      commander: 14.0.2
     dev: true
 
   /@eslint-community/eslint-utils@4.9.0(eslint@9.39.1):
@@ -659,9 +659,9 @@ packages:
     resolution: {integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==}
     dev: true
 
-  /commander@13.1.0:
-    resolution: {integrity: sha512-/rFeCpNJQbhSZjGVwO9RFV3xPqbnERS8MmIQzCtD/zl6gpJuV/bMLuN92oG3F7d8oDEHHRrujSXNUr8fpjntKw==}
-    engines: {node: '>=18'}
+  /commander@14.0.2:
+    resolution: {integrity: sha512-TywoWNNRbhoD0BXs1P3ZEScW8W5iKrnbithIl0YH+uCmBd0QpPOA8yc82DS3BIE5Ma6FnBVUsJ7wVUDz4dvOWQ==}
+    engines: {node: '>=20'}
     dev: true
 
   /common-ancestor-path@1.0.1:
@@ -962,14 +962,14 @@ packages:
       minipass: 7.1.2
     dev: true
 
-  /generate-license-file@4.1.0:
-    resolution: {integrity: sha512-g/GGnfquPMFnOiPeBVdjWBp+MwbmPvP/RatL8v97kuQrPYmZWb3Oqmm3PdMQyXWaE2cnjGRXNXB7o0tIV4ZT9A==}
+  /generate-license-file@4.1.1:
+    resolution: {integrity: sha512-hh2UnFsUiUkw/NdO1tdwBM4xVKnFPHEnR+2yU9NxDLIupIQNRZf4i0UpzGdJu1wUTSzlMHzy4C+2xv+Tex9suA==}
     hasBin: true
     dependencies:
-      '@commander-js/extra-typings': 13.1.0(commander@13.1.0)
+      '@commander-js/extra-typings': 14.0.0(commander@14.0.2)
       '@npmcli/arborist': 9.1.6
       cli-spinners: 2.9.2
-      commander: 13.1.0
+      commander: 14.0.2
       cosmiconfig: 9.0.0
       enquirer: 2.4.1
       glob: 11.0.3
