@@ -225,8 +225,8 @@ packages:
       - supports-color
     dev: true
 
-  /@npmcli/arborist@9.1.8:
-    resolution: {integrity: sha512-TYAzq0oaXQU+uLfXFbR2wYx62qHIOSg/TYhGWJSphJDypyjdNXC7B/+k29ElC2vWlWfX4OJnhmSY5DTwSFiNpg==}
+  /@npmcli/arborist@9.1.9:
+    resolution: {integrity: sha512-O/rLeBo64mkUn1zU+1tFDWXvbAA9UXe9eUldwTwRLxOLFx9obqjNoozW65LmYqgWb0DG40i9lNZSv78VX2GKhw==}
     engines: {node: ^20.17.0 || >=22.9.0}
     hasBin: true
     dependencies:
@@ -938,7 +938,7 @@ packages:
     hasBin: true
     dependencies:
       '@commander-js/extra-typings': 14.0.0(commander@14.0.2)
-      '@npmcli/arborist': 9.1.8
+      '@npmcli/arborist': 9.1.9
       cli-spinners: 2.9.2
       commander: 14.0.2
       cosmiconfig: 9.0.0
