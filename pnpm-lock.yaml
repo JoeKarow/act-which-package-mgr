@@ -17,8 +17,8 @@ dependencies:
 
 devDependencies:
   '@vercel/ncc':
-    specifier: 0.44.0
-    version: 0.44.0
+    specifier: 0.44.1
+    version: 0.44.1
   eslint:
     specifier: 9.39.4
     version: 9.39.4
@@ -434,8 +434,8 @@ packages:
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
     dev: true
 
-  /@vercel/ncc@0.44.0:
-    resolution: {integrity: sha512-pHyI+bZokSgIscTKFSmpNk5vZzmOrb9RW0Vu4SRyqUvkJ0kgg3PzaZLLDVTFXhbUiCqg0/Eu8L4fKtgViA92kg==}
+  /@vercel/ncc@0.44.1:
+    resolution: {integrity: sha512-cUjIE5P2YY1n+Kt9rFIazMMpGoPn1Fic04rOmTkElMkiDP5oszGfERMpo2shVkFKDL7rVppdM2pqJKC59shQWQ==}
     hasBin: true
     dev: true
 
