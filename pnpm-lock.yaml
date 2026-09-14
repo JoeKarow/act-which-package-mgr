@@ -555,7 +555,7 @@ packages:
       minipass-collect: 2.0.1
       minipass-flush: 1.0.7
       minipass-pipeline: 1.2.4
-      p-map: 7.0.7
+      p-map: 7.0.8
       ssri: 14.0.0
     dev: true
 
@@ -639,7 +639,7 @@ packages:
     engines: {node: ^22.18 || >= 24}
     dependencies:
       env-paths: 2.2.1
-      js-yaml: 5.4.1
+      js-yaml: 5.4.2
     dev: true
 
   /cross-spawn@7.0.6:
@@ -898,7 +898,7 @@ packages:
       glob: 13.0.6
       json5: 2.2.3
       ora: 5.4.1
-      zod: 4.5.4
+      zod: 4.6.5
     transitivePeerDependencies:
       - kerberos
       - supports-color
@@ -1073,8 +1073,8 @@ packages:
       argparse: 2.0.1
     dev: true
 
-  /js-yaml@5.4.1:
-    resolution: {integrity: sha512-28R/k+NAjeuf7+CKlTxWZVExJGwVVLwY06DgEnOMz2gEpfNkDcD7QvyiVPT0xy0XXhU8vHsd4Ot42OOPdJG7dQ==}
+  /js-yaml@5.4.2:
+    resolution: {integrity: sha512-m+aqu+LwO1O6sIopafj8HUVl5aawITwZQe/yHpMCKjaWBaA/d07B/QdMb3529REftiU+RMMHL3Vlsw3hON7vWg==}
     hasBin: true
     dependencies:
       argparse: 2.0.1
@@ -1417,8 +1417,8 @@ packages:
       p-limit: 3.1.0
     dev: true
 
-  /p-map@7.0.7:
-    resolution: {integrity: sha512-VaWRu2i4FJNRtiRWCuuQRgfQ1B7a6+gMSrO+3j0EQi/k0ULfS9kosRxGoiqwzIjZTDI02tGfk5mXXltLg6QtfQ==}
+  /p-map@7.0.8:
+    resolution: {integrity: sha512-MitaVsCuCFIvOLLPIU7NnfrZvS9H9h7kwMUkDo+T2pEISaJD48IV9S8iIdXB7PsvvdxyYcsSTTrr90XKsbulNw==}
     engines: {node: '>=18'}
     dev: true
 
@@ -1811,6 +1811,6 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /zod@4.5.4:
-    resolution: {integrity: sha512-sC95tT5iHHH9gtpj6A81kh+NEaRAUFN+qlUPDUbRfOMvNf5QCBqsb3WgvnpVtK5Y+4UfA6KqufotuTvMGiTlsA==}
+  /zod@4.6.5:
+    resolution: {integrity: sha512-v5l/aFXZQeai4awLbOpSoHecE9UiMrnfx75tEXLjNonXVARxQ5mOeipTjROUchszUNCqnE+hqAMujRsRHsut2Q==}
     dev: true
