@@ -201,8 +201,8 @@ packages:
       - supports-color
     dev: true
 
-  /@npmcli/arborist@10.0.2:
-    resolution: {integrity: sha512-+pkXINqcFRhiSK6EvhzqfiKD43Qsp6KKl8nVijPVjvJZuxl501UPd7uO48wcSAnWIub7prHuxL2fxrFIEg1FzA==}
+  /@npmcli/arborist@10.0.3:
+    resolution: {integrity: sha512-QuGpR01YV/4RuJ+5S0W5qh4uljQygmk7b50Jkx+zLErOMMUpKhpbLu/TqQlKfsvuR3SOwXIn3ht+G4bcxrv1WA==}
     engines: {node: ^22.22.2 || ^24.15.0 || >=26.0.0}
     hasBin: true
     dependencies:
@@ -510,7 +510,7 @@ packages:
       cmd-shim: 9.0.2
       npm-normalize-package-bin: 6.0.0
       proc-log: 7.0.0
-      read-cmd-shim: 7.0.0
+      read-cmd-shim: 7.0.1
       write-file-atomic: 8.0.0
     dev: true
 
@@ -890,7 +890,7 @@ packages:
     hasBin: true
     dependencies:
       '@commander-js/extra-typings': 15.0.0(commander@15.0.0)
-      '@npmcli/arborist': 10.0.2
+      '@npmcli/arborist': 10.0.3
       cli-spinners: 3.4.0
       commander: 15.0.0
       cosmiconfig: 10.0.1
@@ -1286,7 +1286,7 @@ packages:
       semver: 7.8.5
       tar: 7.5.22
       tinyglobby: 0.2.17
-      undici: 8.10.2
+      undici: 8.11.2
       which: 7.0.0
     dev: true
 
@@ -1533,8 +1533,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /read-cmd-shim@7.0.0:
-    resolution: {integrity: sha512-GkU4W2VYxlMQqyn9JQQm8opl/UIXRzCS7iau12zNZm//CperjtK9CtpNhIh7hzU807BSdcmJIcRWeu0LIkTkYQ==}
+  /read-cmd-shim@7.0.1:
+    resolution: {integrity: sha512-GhAsW4iJS0xNqv8P6HocT3gb5HCKHtEBKLIN7fE2oWr27jGIEihu48lXyGGeexkbiLv1XAbwyXvgjYMfT81kZA==}
     engines: {node: ^22.22.2 || ^24.15.0 || >=26.0.0}
     dev: true
 
@@ -1739,8 +1739,8 @@ packages:
       '@fastify/busboy': 2.1.1
     dev: false
 
-  /undici@8.10.2:
-    resolution: {integrity: sha512-/y4/bH9YNU5hi9NIrpOuvGXFcxrj3CMrV+/AYpowAYTpHn8gX/XPFjNy766FPoYY0miQhdW977JFWKGNhBdwyQ==}
+  /undici@8.11.2:
+    resolution: {integrity: sha512-u4UB2/IrKdU6lFxumHmmo1a3fCQO5tzQllRorfoRS63txhrB7xTpSn1PftwC4qEHkOaqP95fCWW4lJzwErwzhQ==}
     engines: {node: '>=22.19.0'}
     dev: true
 
