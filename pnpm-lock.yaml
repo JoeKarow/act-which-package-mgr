@@ -391,7 +391,7 @@ packages:
     engines: {node: ^22.22.2 || ^24.15.0 || >=26.0.0}
     dependencies:
       '@sigstore/protobuf-specs': 0.5.2
-      tuf-js: 6.0.0
+      tuf-js: 6.0.1
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -410,16 +410,16 @@ packages:
     engines: {node: ^16.14.0 || >=18.0.0}
     dev: true
 
-  /@tufjs/models@5.0.0:
-    resolution: {integrity: sha512-U4mVcdFGOi6pt8n38LdWZp67Svn7ppnU1Pj8SGOVaBi1X4gm+G4ztQlLfkoJbKSHfjA6WeaiJp2A4V83AJF6nQ==}
+  /@tufjs/models@5.0.1:
+    resolution: {integrity: sha512-wacy5twbJk36R0dTcGE3qmPNNH095bFselAYNrVCzf0Byd0t3+Qzk3+3gn/rHGP10FuHBVk4swg4aczr1c2z/g==}
     engines: {node: ^22.22.2 || ^24.15.0 || >=26.0.0}
     dependencies:
       '@tufjs/canonical-json': 2.0.0
       minimatch: 10.2.6
     dev: true
 
-  /@types/estree@1.0.9:
-    resolution: {integrity: sha512-GhdPgy1el4/ImP05X05Uw4cw2/M93BCUmnEvWZNStlCzEKME4Fkk+YpoA5OiHNQmoS7Cafb8Xa3Pya8m1Qrzeg==}
+  /@types/estree@1.0.10:
+    resolution: {integrity: sha512-lTyOMnOcmRBzdCv6/4zUZCrEhV0xrqQiUZBZtVcbmLHBXKLnN8q89v/wKRF/Q0HbwVsqbIG3o5HDoFl9sduM+g==}
     dev: true
 
   /@types/json-schema@7.0.15:
@@ -752,7 +752,7 @@ packages:
       '@humanfs/node': 0.16.8
       '@humanwhocodes/module-importer': 1.0.1
       '@humanwhocodes/retry': 0.4.3
-      '@types/estree': 1.0.9
+      '@types/estree': 1.0.10
       ajv: 6.15.0
       chalk: 4.1.2
       cross-spawn: 7.0.6
@@ -1713,12 +1713,12 @@ packages:
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
     dev: true
 
-  /tuf-js@6.0.0:
-    resolution: {integrity: sha512-zlJVOIO68hmgo1//X4ENEcTGfuOTAtDPi8PsTsG+FyxD85E/ww1ZnwBbWo/yCEExGpI+Kilg7Z3qCdHX2BoJTQ==}
+  /tuf-js@6.0.1:
+    resolution: {integrity: sha512-o59N1PU8xk0bBV3HpJ4jjwldIeze17yXW1XTv02CEEKdC3E/tnJDU3CPWDNT4IZpkx9Srv9v1DJZ+JTdo46THg==}
     engines: {node: ^22.22.2 || ^24.15.0 || >=26.0.0}
     dependencies:
       '@gar/promise-retry': 1.0.3
-      '@tufjs/models': 5.0.0
+      '@tufjs/models': 5.0.1
       debug: 4.4.3
     transitivePeerDependencies:
       - supports-color
